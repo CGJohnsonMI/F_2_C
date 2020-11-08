@@ -1,0 +1,17 @@
+using System;
+
+namespace Fahrenheit_Celsius
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter the temperature in degrees Fahrenheit");
+            var Fahrenheit = Console.ReadLine();
+
+            var Celsius = Convert.ToInt16(Fahrenheit);
+            Console.WriteLine((Celsius - 30)/2);
+
+        }
+    }
+}
